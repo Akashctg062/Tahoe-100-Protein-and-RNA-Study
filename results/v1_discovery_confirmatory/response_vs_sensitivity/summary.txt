@@ -1,0 +1,17 @@
+Response table: 379 drugs x 50 lines x 3 doses
+
+=== prism_auc: 51 drugs, 43 lines, 1,845 pairs (lung: 614 pairs) ===
+  n_de      median within-drug rho = -0.018 | partial (cell-count adjusted) = -0.085 | drugs with rho<0: 53% of 51 | one-sided permutation p = 0.2994
+     most negative drugs: Bortezomib (-0.31), Tucatinib (-0.30), Abemaciclib (-0.30), Sunitinib (-0.29), Dabrafenib (-0.29), Cobimetinib (-0.29)
+  rms_lfc   median within-drug rho = -0.019 | partial (cell-count adjusted) = -0.041 | drugs with rho<0: 53% of 51 | one-sided permutation p = 0.2754
+     most negative drugs: Trametinib (-0.29), Sunitinib (-0.29), Lapatinib ditosylate (-0.29), Alpelisib (-0.28), Homoharringtonine (-0.27), Temsirolimus (-0.25)
+  rms_stat  median within-drug rho = -0.019 | partial (cell-count adjusted) = -0.107 | drugs with rho<0: 55% of 51 | one-sided permutation p = 0.2894
+     most negative drugs: Abemaciclib (-0.32), Bortezomib (-0.31), Tucatinib (-0.29), Dabrafenib (-0.28), palbociclib (-0.28), Sonidegib (-0.28)
+
+=== gdsc_auc: 45 drugs, 44 lines, 1,867 pairs (lung: 581 pairs) ===
+  n_de      median within-drug rho = -0.023 | partial (cell-count adjusted) = -0.054 | drugs with rho<0: 53% of 43 | one-sided permutation p = 0.2255
+     most negative drugs: Dabrafenib (-0.44), LJI308 (-0.27), Epirubicin (hydrochloride) (-0.26), Erlotinib (-0.24), Cytarabine (hydrochloride) (-0.24), 5-Azacytidine (-0.21)
+  rms_lfc   median within-drug rho = -0.080 | partial (cell-count adjusted) = -0.086 | drugs with rho<0: 72% of 43 | one-sided permutation p = 0.0100
+     most negative drugs: Topotecan (hydrochloride) (-0.40), Epirubicin (hydrochloride) (-0.38), Irinotecan (-0.36), Docetaxel (-0.32), Trametinib (-0.25), Docetaxel (Trihydrate) (-0.24)
+  rms_stat  median within-drug rho = -0.027 | partial (cell-count adjusted) = -0.057 | drugs with rho<0: 56% of 43 | one-sided permutation p = 0.1836
+     most negative drugs: Dabrafenib (-0.44), LJI308 (-0.28), Erlotinib (-0.26), Epirubicin (hydrochloride) (-0.25), Trametinib (DMSO_TF solvate) (-0.20), Rucaparib (phosphate) (-0.19)

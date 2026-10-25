@@ -1,0 +1,52 @@
+OK  Fig6 CTRP RNA median: recomputed +0.2248 vs shown +0.2200
+OK  Fig6 CTRP RPPA median: recomputed +0.1804 vs shown +0.1800
+OK  Fig6 CTRP Response median: recomputed +0.1016 vs shown +0.1000
+   CTRP sets: {'Protein': 0.182, 'RNA': 0.225, 'RPPA': 0.18, 'Response': 0.102, 'Response+Protein': 0.112, 'Response+RNA': 0.23}
+   ProCan sets present: <ArrowStringArray>
+['Response', 'RNA', 'Protein', 'RPPA', 'Response+RNA', 'Response+Protein']
+Length: 6, dtype: str
+OK  Fig6 ProCan PRISM: recomputed +0.0464 vs shown +0.0460
+OK  Fig6 ProCan GDSC: recomputed +0.2933 vs shown +0.2930
+OK  Fig6 ProCan CTRP: recomputed +0.2815 vs shown +0.2820
+OK  Fig6 C3 GDSC RPPA: recomputed +0.1666 vs shown +0.1700
+OK  Fig6 C3 PRISM Protein_MS: recomputed +0.1262 vs shown +0.1300
+OK  Fig6 C3 PRISM Response: recomputed -0.0460 vs shown -0.0500
+OK  Fig6 C3 GDSC RNA: recomputed +0.0031 vs shown +0.0000
+   CTRP Response-RNA median -0.115, Wilcoxon two-sided p 0.0248; RPPA-RNA median -0.073, p 0.0016
+                 comparison  median_difference  p_two_sided  fdr_bh
+            Response vs RNA            -0.1149       0.0248  0.0404
+        Response vs Protein             0.0108       0.5227  0.5663
+             Protein vs RNA            -0.0527       0.1297  0.1874
+                RPPA vs RNA            -0.0726       0.0016  0.0035
+        Response+RNA vs RNA            -0.0317       0.2679  0.3166
+Response+Protein vs Protein            -0.0292       0.2071  0.2693
+            RPPA vs Protein            -0.0031       0.7536  0.7536
+OK  Fig6b joint BH (Response vs RNA): recomputed +0.0404 vs shown +0.0400
+OK  Fig6b joint BH (RPPA vs RNA): recomputed +0.0035 vs shown +0.0035
+OK  Fig6c ProCan-RNA GDSC median diff: recomputed +0.1795 vs shown +0.1800
+OK  Fig6e top vs mid r PRISM (n=43): recomputed +0.1210 vs shown +0.1200
+OK  Fig6e top vs mid r GDSC (n=37): recomputed +0.0850 vs shown +0.0800
+OK  Fig5 null k5 a1 n=10: recomputed -0.9363 vs shown -0.9400
+OK  Fig5 null k5 a1 n=20: recomputed -0.8392 vs shown -0.8400
+OK  Fig5 null k5 a1 n=27: recomputed -0.7707 vs shown -0.7700
+OK  Fig5 null k5 a1 n=40: recomputed -0.6438 vs shown -0.6400
+OK  Fig5 null k5 a1 n=60: recomputed -0.5057 vs shown -0.5100
+OK  Fig5 intercept-only n=27: recomputed -1.0000 vs shown -1.0000
+   max |calibrated| under null: 0.04
+OK  Fig5 calibrated loo n=40 r=0.4: recomputed +0.5409 vs shown +0.5400
+OK  Fig5 calibrated loo n=60 r=0.4: recomputed +0.5904 vs shown +0.5900
+OK  Fig5 calibrated 5fold n=40 r=0.4: recomputed +0.2864 vs shown +0.2900
+OK  Fig5 calibrated 5fold n=60 r=0.4: recomputed +0.3646 vs shown +0.3700
+OK  Fig3 C1: all 8 AUROC/Δ values re-derived from OOF (n = 128, positives = 66); min Holm p = 0.160
+OK  Fig3 D1: all 8 AUROC/Δ values re-derived from OOF (n = 100, positives = 65); min Holm p = 1.000
+OK  Fig3d hERG rho chem: recomputed +0.0271 vs shown +0.0270
+OK  Fig3d hERG rho chem+Tahoe: recomputed +0.0022 vs shown +0.0020
+   hERG n = 43, pIC50 >= 5: 28
+OK  Fig3e same-drug mean r: recomputed +0.0623 vs shown +0.0620
+OK  Fig3e different mean r: recomputed +0.0133 vs shown +0.0130
+OK  S2 enet: per-drug medians match summary (max diff 0.0e+00)
+OK  S2 rf: per-drug medians match summary (max diff 0.0e+00)
+OK  S2 ridge_krr: per-drug medians match summary (max diff 0.0e+00)
+OK  S2c pooled median concordance: recomputed +0.5111 vs shown +0.5110
+
+FAILS: none

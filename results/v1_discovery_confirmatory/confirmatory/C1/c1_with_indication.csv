@@ -1,0 +1,129 @@
+key,signal,oof_chemistry,oof_tahoe,oof_chemistry+tahoe,drug_tahoe,drug,gpt-notes-approval,cardiovascular_indication
+talc,0,0.4353197125015104,0.4762423737526562,0.4360421916208997,Talc,Talc,Talc used in pharma and cosmetics; safety under review for some uses.,False
+lactate,0,0.3201278719250048,0.4533033434035182,0.3197522478823508,Lactate (calcium),Lactate (calcium),"Used in medical settings, but not specifically approved as a standalone drug.",False
+eflornithine,0,0.4431117231768492,0.6155210696356944,0.4596717885183045,L-Eflornithine (monohydrochloride),L-Eflornithine (monohydrochloride),Used to treat sleeping sickness. Approved for human use.,False
+cysteamine,0,0.555001417271367,0.4031545350925489,0.5459680074828649,Cysteamine (hydrochloride),Cysteamine (hydrochloride),FDA-approved for cystinosis treatment.,False
+allantoin,1,0.4024037456575943,0.2325483311723046,0.3780688536974226,Allantoin,Allantoin,Allantoin is approved as a skin protectant by the FDA.,False
+fluorouracil,1,0.5353818484581536,0.5754220866895086,0.5409985340042647,5-Fluorouracil,5-Fluorouracil,Widely used chemotherapy drug. Approved for cancer treatment.,False
+vilanterol,1,0.7429118753486164,0.3684084114906688,0.7337048301863867,Vilanterol,Vilanterol,Combined with fluticasone furoate for asthma and COPD treatment.,False
+norepinephrine,1,0.475283557558581,0.5447137330007716,0.4824254939972291,Norepinephrine (hydrochloride),Norepinephrine (hydrochloride),Approved for human use as a medication to treat low blood pressure.,True
+pentamidine,1,0.4734235839981806,0.5143547058118443,0.4733849861043969,Pentamidine (isethionate),Pentamidine (isethionate),Used to treat Pneumocystis pneumonia and African trypanosomiasis.,False
+balsalazide,0,0.2933817830235446,0.4085360401035296,0.2864264229011725,Balsalazide (sodium hydrate),Balsalazide (sodium hydrate),Used for ulcerative colitis treatment in humans.,False
+pemetrexed,1,0.2882588260091895,0.6662455923195979,0.2987532593010943,Pemetrexed,Pemetrexed,Chemotherapy drug for mesothelioma and non-small cell lung cancer.,False
+econazole,0,0.6662656953070124,0.4722073315334893,0.6676770353992427,Econazole,Econazole,Antifungal approved for dermatological use.,False
+tucidinostat,0,0.4854542161912843,0.577358320474205,0.468477323189726,Tucidinostat,Tucidinostat,Approved for use in China for certain cancers.,False
+pexidartinib,0,0.715706298118809,0.414035253473492,0.7048458370611954,Pexidartinib (hydrochloride),Pexidartinib (hydrochloride),Approved for tenosynovial giant cell tumor in 2019.,False
+salicylicacid,0,0.6108341727822875,0.5110324691952229,0.6133210209102906,Salicylic acid,Salicylic acid,Used topically for acne and in aspirin synthesis.,False
+clotrimazole,1,0.6237022508883509,0.340356542162036,0.609225222444353,Clotrimazole,Clotrimazole,Antifungal used in topical and oral preparations.,False
+belinostat,1,0.4007594415713787,0.3655427996491535,0.4182499857321233,Belinostat,Belinostat,Approved for relapsed/refractory peripheral T-cell lymphoma.,False
+riluzole,0,0.7040026908475889,0.6196552401021852,0.7149934773253626,Riluzole hydrochloride,Riluzole hydrochloride,Used in ALS treatment.,False
+gemcitabine,1,0.6688744774932317,0.3884997492394385,0.6587554446410768,Gemcitabine,Gemcitabine,Approved for cancer treatment like pancreatic and non-small cell lung cancer.,False
+cytarabine,1,0.8151901055662789,0.4535847329637897,0.8110541150837669,Cytarabine,Cytarabine,Used in chemotherapy for leukemia and other cancers.,False
+selinexor,0,0.5399351084256576,0.4383072955780515,0.5322589450368815,Selinexor,Selinexor,Approved for certain cancer treatments.,False
+furosemide,1,0.5635862041024712,0.391074780633697,0.5539968435436486,Furosemide,Furosemide,"Widely used diuretic, approved for various conditions like hypertension and edema.",True
+azacitidine,1,0.8767263594624563,0.6367253396934697,0.8783394608367848,5-Azacytidine,5-Azacytidine,"Approved for use in specific cancers, such as myelodysplastic syndromes.",False
+clofarabine,1,0.5136937518647285,0.5439124844092953,0.5119542076355518,Clofarabine,Clofarabine,Approved for leukemia treatment in pediatric patients.,False
+allopurinol,1,0.5396855201510034,0.5975046090252081,0.5480041690024456,Allopurinol,Allopurinol,"Approved for gout treatment, reduces uric acid levels.",False
+trifluridine,0,0.594683664766354,0.3909191410303846,0.5871954901634576,Trifluridine,Trifluridine,Used to treat viral infections and in cancer therapy (with tipiracil).,False
+brivudine,0,0.4252311155044865,0.6880890393374448,0.4218533970007916,Brivudine,Brivudine,"Approved in Europe, not widely used in the US.",False
+decitabine,1,0.5665212115907049,0.6902267331687043,0.5786239549831607,Decitabine,Decitabine,Approved for treatment of myelodysplastic syndromes and acute myeloid leukemia.,False
+filgotinib,1,0.2406296397445844,0.5695901163874977,0.2429220558619946,Filgotinib,Filgotinib,Approved in Japan and EU for rheumatoid arthritis.,False
+pimozide,1,0.4457551596875489,0.3827294425958352,0.437175298048776,Pimozide,Pimozide,Approved antipsychotic used mainly for Tourette's syndrome and chronic schizophrenia.,False
+clonidine,1,0.3468421131403974,0.3591190194977255,0.3334002721490291,Clonidine (hydrochloride),Clonidine (hydrochloride),Used for hypertension and ADHD among other conditions.,True
+brimonidine,0,0.6351778392064737,0.4804171124339446,0.6394455059621852,Brimonidine,Brimonidine,Used in the form of brimonidine tartrate for glaucoma treatment.,False
+lipoicacid,0,0.5263911504675295,0.4099012672099498,0.5190215992920177,Lipoic acid,Lipoic acid,"Approved as dietary supplement, not as a drug for specific indications.",False
+pentoxifylline,1,0.4766854424293772,0.3665197321778933,0.4727910558558703,Pentoxifylline,Pentoxifylline,Used to improve blood flow in peripheral artery disease.,False
+chlorhexidine,0,0.2749440110688127,0.4068644853713865,0.2738021553653789,Chlorhexidine (diacetate),Chlorhexidine (diacetate),Used as antiseptic and disinfectant. Approved for human use.,False
+abiraterone,1,0.3388476224425289,0.5797513142649074,0.3563714289941903,Abiraterone acetate,Abiraterone acetate,Approved for prostate cancer treatment.,False
+bosentan,1,0.5584457299440063,0.5993542364253887,0.5597928838340419,Bosentan (hydrate),Bosentan (hydrate),Approved for treating pulmonary arterial hypertension.,True
+anastrozole,1,0.6551729049069077,0.4551269761958047,0.6512678613179672,Anastrozole,Anastrozole,Used to treat breast cancer in postmenopausal women.,False
+flutamide,1,0.3637186089023544,0.3908153592944196,0.3600234298103429,Flutamide,Flutamide,Used to treat prostate cancer as an antiandrogen.,False
+aliskiren,1,0.3491755813577745,0.2720230905078087,0.331471644539669,Aliskiren,Aliskiren,Renin inhibitor for hypertension. Approved in the US and EU.,True
+imiquimod,0,0.4952395117641291,0.6567806286847355,0.5078249285480738,Imiquimod (maleate),Imiquimod (maleate),"Approved for skin conditions; imiquimod itself, not specifically maleate salt.",False
+belumosudil,0,0.607087196997389,0.4838632138364844,0.6009975749485127,Belumosudil,Belumosudil,Approved for chronic graft-versus-host disease in the US.,False
+erdafitinib,0,0.6859957537733969,0.4643687344370693,0.6793765627991142,Erdafitinib,Erdafitinib,Approved for bladder cancer treatment.,False
+aprepitant,1,0.6020451282156314,0.6030806946532957,0.6140108864166487,Aprepitant,Aprepitant,Aprepitant is approved for preventing chemotherapy-induced nausea and vomiting.,False
+carbidopa,0,0.662504314297708,0.4168465741211588,0.6619225907071727,Carbidopa (monohydrate),Carbidopa (monohydrate),Used in combination with levodopa for Parkinson's treatment.,False
+silodosin,1,0.5020268945777803,0.5970951860481025,0.5062562129499686,Silodosin,Silodosin,Approved for benign prostatic hyperplasia treatment.,False
+darolutamide,0,0.4597381893145118,0.7100786995839062,0.477475340208597,Darolutamide,Darolutamide,Approved for treating non-metastatic castration-resistant prostate cancer.,False
+benproperine,1,0.4718658103085154,0.5283233109222822,0.4694533478189952,Benproperine (phosphate),Benproperine (phosphate),Studied as a cough suppressant; not widely approved.,False
+bicalutamide,1,0.6335313626615526,0.3545895769844411,0.6233988511799027,Bicalutamide,Bicalutamide,Approved as antiandrogen for prostate cancer treatment.,False
+captopril,1,0.2408407885901808,0.4728166797346514,0.2391209980872332,Captopril,Captopril,First ACE inhibitor approved for hypertension and heart failure.,True
+mifepristone,1,0.3286757913185673,0.6002065418810917,0.3349994243794266,Mifepristone,Mifepristone,Approved for medical abortion and Cushing's syndrome treatment.,False
+tetracycline,0,0.7337878075165775,0.5430960233643864,0.7316185904071772,Tetracycline (hydrochloride),Tetracycline (hydrochloride),Approved antibiotic often used as tetracycline hydrochloride.,False
+delamanid,1,0.277054242833064,0.5844747277527625,0.2881681142720133,Delamanid,Delamanid,Approved for MDR-TB treatment.,False
+lopinavir,1,0.6715437335019727,0.6222558196375503,0.6825655392090584,Lopinavir,Lopinavir,Combined with ritonavir for HIV treatment. Approved for human use.,False
+cloxacillin,0,0.1595166930354045,0.4378516618922144,0.1546009765999613,Cloxacillin (sodium),Cloxacillin (sodium),Approved as a penicillinase-resistant antibiotic for human use.,False
+tretinoin,1,0.3079944618317924,0.4378386659101353,0.302607770287906,Retinoic acid,Retinoic acid,Approved for acne and leukemia treatment.,False
+tucatinib,0,0.3576576135742185,0.599937453277517,0.3621726345665939,Tucatinib,Tucatinib,Approved for human use in advanced HER2-positive breast cancer.,False
+sulfisoxazole,0,0.6637933985480966,0.3907589363758151,0.6523278529723697,Sulfisoxazole,Sulfisoxazole,Discontinued in U.S.; previously used for bacterial infections.,False
+alpelisib,0,0.6909537891440483,0.5496151684481558,0.6947654292135221,Alpelisib,Alpelisib,Approved for HR+/HER2- advanced breast cancer in combination with fulvestrant.,False
+paclitaxel,1,0.7744178133309008,0.3000173443505776,0.7589980016214694,Paclitaxel,Paclitaxel,Chemotherapy drug approved for cancer treatment.,False
+docetaxel,1,0.7542963330380422,0.5315783527165396,0.7598901099429884,Docetaxel,Docetaxel,"Approved anticancer drug, often used in chemotherapy treatments.",False
+roxadustat,1,0.3652528217074214,0.6858249983328973,0.3724036312646849,Roxadustat,Roxadustat,"Approved for anemia treatment in some countries, e.g., China, Japan.",False
+gemfibrozil,1,0.401261845746113,0.4526032366883516,0.3958099823096555,Gemfibrozil,Gemfibrozil,Approved for dyslipidemia treatment.,False
+vortioxetine,0,0.5204927761867039,0.6440332448797639,0.5343512694228645,Vortioxetine,Vortioxetine,Approved for major depressive disorder.,False
+pralsetinib,0,0.4014618030946753,0.6321932127801564,0.4001232138462701,Pralsetinib,Pralsetinib,Approved for RET fusion-positive cancers.,False
+ciclopirox,0,0.6237839918783041,0.5367668249484814,0.6240769463122486,Ciclopirox,Ciclopirox,"Approved for antifungal use, primarily in nail and skin treatments.",False
+tolcapone,0,0.688549506843463,0.5497421932652373,0.6935908083573834,Tolcapone,Tolcapone,"Used in Parkinson's treatment, subject to liver monitoring.",False
+lumateperone,0,0.5528704841892279,0.482628527534664,0.54705389737252,Lumateperone (tosylate),Lumateperone (tosylate),Approved for schizophrenia; marketed as Caplyta.,False
+bexarotene,0,0.4879471305369486,0.574233798539956,0.4959927416751246,Bexarotene,Bexarotene,Approved for treating cutaneous T-cell lymphoma.,False
+olanzapine,1,0.5539209544457276,0.5065353842065765,0.5496526214129854,Olanzapine,Olanzapine,Olanzapine is used in treatment of schizophrenia and bipolar disorder.,False
+megestrol,1,0.551827184259579,0.2872022047491044,0.5347599014969455,Megestrol,Megestrol,Used for appetite loss and weight gain in cancer/AIDS patients.,False
+omeprazole,1,0.2419661300309662,0.5118561587482435,0.2423104206159073,Omeprazole (sodium),Omeprazole (sodium),Approved in salt form as acid reflux treatment.,False
+ornidazole,0,0.5079030925994991,0.5010157081680217,0.5061157806944411,Ornidazole,Ornidazole,"Used for bacterial and protozoal infections, common in some countries.",False
+raltitrexed,0,0.4044196157246033,0.4975662737250948,0.3963650951567052,Raltitrexed,Raltitrexed,Approved for cancer treatment as thymidylate synthase inhibitor.,False
+triamcinolone,0,0.7395621276905299,0.614176759203207,0.7485344370202328,Triamcinolone,Triamcinolone,Approved corticosteroid for various inflammatory and allergic conditions.,False
+eplerenone,1,0.4730157374307983,0.6438089762091873,0.4852220545834108,Eplerenone,Eplerenone,Used to treat heart failure and hypertension.,True
+finasteride,1,0.582522795745332,0.5938090987783623,0.5841889961423041,Finasteride,Finasteride,Used for benign prostatic hyperplasia and male pattern baldness.,False
+doxycycline,1,0.7771865602658233,0.5991279567503319,0.7792196822886388,Doxycycline (monohydrate),Doxycycline (monohydrate),Approved antibiotic for bacterial infections.,False
+fusidicacid,0,0.7712921963174622,0.396356032292417,0.7638488685331293,Fusidic acid,Fusidic acid,Used topically and orally for bacterial infections.,False
+medroxyprogesterone,0,0.5909707805788725,0.3897411721522898,0.5859190825322088,Medroxyprogesterone acetate,Medroxyprogesterone acetate,Approved as a contraceptive and for hormone therapy.,False
+methylprednisolone,1,0.4503086340307837,0.4572240970883003,0.443193542250816,Methylprednisolone succinate,Methylprednisolone succinate,Corticosteroid; approved for reducing inflammation in various conditions.,False
+dexamethasone,1,0.2881962135180292,0.476893306407248,0.2797255264993296,Dexamethasone,Dexamethasone,Commonly used glucocorticoid for inflammation and immune response regulation.,False
+artesunate,0,0.2496795878334415,0.5267608919961789,0.2502967759158779,Artesunate,Artesunate,"Used for severe malaria, often partnered with other antimalarial drugs.",False
+artemether,0,0.3263413612612712,0.5898821860736236,0.3318080344776675,Artemether,Artemether,Artemether is used in combination with lumefantrine to treat malaria.,False
+sirolimus,0,0.4407130995471401,0.4652554664595188,0.4466346351361919,Rapamycin,Rapamycin,Approved mainly for organ transplantation and cancer treatment.,False
+temsirolimus,1,0.0492026781767989,0.44096551270697,0.049148322923418,Temsirolimus,Temsirolimus,Approved for treating renal cell carcinoma.,False
+everolimus,0,0.4262665502191969,0.4757792755617287,0.4256184900797189,Everolimus,Everolimus,"Approved for certain types of cancer, organ transplantation, and tuberous sclerosis.",False
+clobetasolpropionate,0,0.3988749137363122,0.6767600045540457,0.4033990754421041,Clobetasol propionate,Clobetasol propionate,It's a potent corticosteroid for skin conditions.,False
+betamethasonedipropionate,0,0.4640074555885282,0.6369076769407461,0.4633519746259579,Betamethasone dipropionate,Betamethasone dipropionate,A corticosteroid approved and used in topical formulations for inflammation.,False
+pravastatin,1,0.38780542760238,0.5499806747880798,0.3944013802382605,Pravastatin (sodium),Pravastatin (sodium),Approved as a cholesterol-lowering agent.,False
+ivermectin,0,0.3803842291873597,0.5603074866862554,0.3832251635755649,Ivermectin,Ivermectin,Approved for infections in humans and animals.,False
+vinblastine,1,0.89013084065447,0.5350083461316971,0.8887418484959954,Vinblastine (sulfate),Vinblastine (sulfate),"Used in cancer treatment, notably Hodgkin's lymphoma.",False
+vincristine,1,0.8475465381274809,0.584452361763697,0.8471248989585074,vincristine,vincristine,Used in chemotherapy for various cancers.,False
+indacaterol,1,0.5095420086604736,0.4790276900609219,0.5067120397309739,Indacaterol (maleate),Indacaterol (maleate),Approved for COPD as a long-acting bronchodilator.,False
+irinotecan,0,0.493115519748569,0.5309530372807106,0.4922043497091886,Irinotecan,Irinotecan,"Used in cancer treatment, especially for colorectal cancer.",False
+cyclosporine,0,0.7351323619234782,0.6944566405262461,0.7414445827673287,Cyclosporin A,Cyclosporin A,Immunosuppressant approved for organ transplant patients.,False
+perindopril,1,0.544507744061438,0.4670919875296104,0.5428301979426646,Perindopril (erbumine),Perindopril (erbumine),Approved ACE inhibitor for hypertension and heart failure.,True
+sildenafil,1,0.4606078677818813,0.5856736306592676,0.4606522429596055,Sildenafil,Sildenafil,Approved for erectile dysfunction and pulmonary arterial hypertension.,True
+budesonide,1,0.7608217157278042,0.5528861573242294,0.7616913284046769,Budesonide,Budesonide,"Used for asthma, Crohn's disease, ulcerative colitis.",False
+daptomycin,0,0.3,0.5455698772564448,0.3,Daptomycin,Daptomycin,Approved as an antibiotic for skin infections.,False
+levobupivacaine,0,0.7617251855312384,0.5842827330268369,0.7636785123130009,Levobupivacaine (hydrochloride),Levobupivacaine (hydrochloride),Approved as an enantiomer of bupivacaine for anesthetic use.,False
+ropivacaine,1,0.4944750679493596,0.5078243341775446,0.4901080217314328,Ropivacaine (hydrochloride monohydrate),Ropivacaine (hydrochloride monohydrate),A local anesthetic used in surgeries and pain management.,False
+macitentan,1,0.1959130364401921,0.5675212305657917,0.1939832000895264,Macitentan,Macitentan,Approved for pulmonary arterial hypertension treatment.,True
+lidocaine,1,0.4965450048708938,0.5705434963459696,0.4998523406627035,Lidocaine (hydrochloride),Lidocaine (hydrochloride),Lidocaine hydrochloride is approved as a local anesthetic.,False
+pemigatinib,0,0.5888287475477656,0.5608189846564146,0.5873970774031951,Pemigatinib,Pemigatinib,Approved for treating cholangiocarcinoma.,False
+abemaciclib,0,0.5392551735709182,0.8034460033698023,0.5634216518639613,Abemaciclib,Abemaciclib,"FDA approved for HR-positive, HER2-negative breast cancer.",False
+bimatoprost,0,0.5468223034238698,0.4749700930346535,0.5422178451030566,Bimatoprost,Bimatoprost,Approved for treating glaucoma and cosmetic lash applications.,False
+dorzolamide,0,0.6459564114311681,0.5232527251951006,0.6423483597622387,Dorzolamide (hydrochloride),Dorzolamide (hydrochloride),Approved for glaucoma treatment.,False
+tazarotene,0,0.4772816414370736,0.4306409342697928,0.4730693878881079,Tazarotene,Tazarotene,Topical retinoid approved for psoriasis and acne treatment.,False
+demeclocycline,1,0.4837509537755863,0.5073018472495967,0.4875130148267786,Demeclocycline,Demeclocycline,"Used off-label for SIADH, primarily an antibiotic.",False
+diphenhydramine,1,0.6788102952959152,0.4747926282013061,0.6728674523431549,Diphenhydramine,Diphenhydramine,"Approved antihistamine, used for allergies and as a sleep aid.",False
+methotrexate,0,0.3938859639548298,0.6061748643408851,0.4020493867587856,Methotrexate,Methotrexate,Widely used for cancer and autoimmune diseases treatments.,False
+bendamustine,1,0.4038241999715522,0.6286962350277722,0.4110050511870763,Bendamustine,Bendamustine,Approved for use in leukemia and lymphoma treatment.,False
+benztropine,1,0.7266021156406053,0.3261755760153625,0.7164732537685792,Benztropine (mesylate),Benztropine (mesylate),Used for Parkinson's disease and drug-induced extrapyramidal symptoms.,False
+tadalafil,1,0.5096671794736541,0.5845895704814781,0.5082528493577988,Tadalafil,Tadalafil,Used for erectile dysfunction and pulmonary arterial hypertension.,True
+adagrasib,0,0.568372913602462,0.5738421545777029,0.57117270827128,Adagrasib,Adagrasib,Approved for treating KRAS G12C-mutated non-small cell lung cancer.,False
+phenylephrine,1,0.6216245891145996,0.514847887489127,0.625465476930413,Phenylephrine (hydrochloride),Phenylephrine (hydrochloride),Widely used as a decongestant and in eye drops.,False
+rucaparib,0,0.631586602663659,0.5368340400568907,0.6301618488823036,Rucaparib (phosphate),Rucaparib (phosphate),Approved as a cancer therapy PARP inhibitor.,False
+clopidogrel,1,0.6268264307867839,0.612660959716558,0.636607723661674,Clopidogrel,Clopidogrel,"Antiplatelet drug approved for preventing stroke, heart attack in high-risk patients.",True
+tranilast,0,0.5666625145617136,0.5718701498944444,0.5679580123838489,Tranilast,Tranilast,Approved for asthma and allergic disorders in some countries.,False
+amsacrine,1,0.5395776156198362,0.4412699852911483,0.5328345116565097,Amsacrine,Amsacrine,Used in the treatment of acute leukemias.,False
+futibatinib,0,0.640121677854451,0.5327474275309537,0.6369944036745453,Futibatinib,Futibatinib,Used for cholangiocarcinoma; FDA approved.,False
+cabozantinib,0,0.43040204953765,0.5618439683384124,0.4406758624606503,Cabozantinib (S-malate),Cabozantinib (S-malate),Approved for medullary thyroid cancer and renal cell carcinoma.,False
+fluvoxamine,1,0.292660269803455,0.5442601698800246,0.2982903031501271,Fluvoxamine,Fluvoxamine,SSRI approved for treating OCD and depression.,False
+erlotinib,0,0.6535821216978085,0.5351431424320161,0.6514084443952917,Erlotinib,Erlotinib,Approved for human use for non-small cell lung cancer.,False
+belzutifan,1,0.7148712264872022,0.312387921302404,0.7015198774457392,Belzutifan,Belzutifan,Approved for treating certain cancer types.,False
+nafamostat,0,0.5494788397023436,0.4865765170200647,0.5484910125045908,Nafamostat (mesylate),Nafamostat (mesylate),"Approved in some countries, often used as anticoagulant.",True
+busulfan,0,0.5904912702760122,0.4637067022166336,0.5887718993488764,Busulfan,Busulfan,Approved for use in bone marrow transplantation.,False

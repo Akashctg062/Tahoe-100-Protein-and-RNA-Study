@@ -1,0 +1,8 @@
+T2-H2 hERG (ChEMBL CHEMBL240): 43 Tahoe drugs with exact pIC50; 43 analysed; missing signatures: none
+signature files used: 3
+PRIMARY delta Spearman (chem+Tahoe - chem) = -0.025 (95% CI -0.087 to +0.018)
+DECISION: Tahoe does NOT add information (lower CI <= 0)
+
+                         task  n  chem  chem_tahoe  delta  ci_lo  ci_hi
+    regression_pIC50_spearman 43 0.027       0.002 -0.025 -0.087  0.018
+classification_pIC50>=5_auroc 43 0.512       0.507 -0.005 -0.029  0.018

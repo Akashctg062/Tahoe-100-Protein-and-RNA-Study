@@ -1,0 +1,10 @@
+# Python packages used in the analyses (Python 3.11-3.13)
+pandas>=2.2
+numpy
+scipy
+scikit-learn>=1.5
+pyarrow>=15
+rdkit
+matplotlib
+requests
+openpyxl

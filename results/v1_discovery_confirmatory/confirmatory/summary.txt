@@ -1,0 +1,37 @@
+Drugs with >= 20 labelled Tahoe lines (PRISM or GDSC): 59
+Response table: 59 drugs, 50 lines, 5014 genes
+
+=== C2  Proliferation program (20 genes) vs AUC, within drug ===
+  PRISM: 44 drugs | median rho = +0.015 | drugs rho>0: 55% | one-sided p = 0.3427 | not supported at Bonferroni 0.025
+  GDSC: 37 drugs | median rho = +0.055 | drugs rho>0: 65% | one-sided p = 0.0350 | not supported at Bonferroni 0.025
+
+=== C3  LOO ridge | PCA k=5 | alpha=1.0 | dose=top ===
+  PRISM: 43 drugs (common lines with all modalities, median n = 26)
+  GDSC: 37 drugs (common lines with all modalities, median n = 28)
+source                               set  k  alpha  n_drugs  median_rho  perm_p  wilcoxon_p      p  fdr_bh          verdict
+ PRISM                          Response  5    1.0       43     -0.4904  0.6786         NaN 0.6786  0.7081 does not predict
+ PRISM                               RNA  5    1.0       43     -0.1104  0.2695         NaN 0.2695  0.3593 does not predict
+ PRISM                        Protein_MS  5    1.0       43     -0.0395  0.0299         NaN 0.0299  0.0905 does not predict
+ PRISM                              RPPA  5    1.0       43     -0.0709  0.0319         NaN 0.0319  0.0905 does not predict
+ PRISM                      Response+RNA  5    1.0       43     -0.1067  0.3852         NaN 0.3852  0.4403 does not predict
+ PRISM               Response+Protein_MS  5    1.0       43     -0.0248  0.0339         NaN 0.0339  0.0905 does not predict
+ PRISM                   Response vs RNA  5    1.0       43     -0.3347     NaN      0.0000 0.0000  0.0003        different
+ PRISM            Response vs Protein_MS  5    1.0       43     -0.3122     NaN      0.0000 0.0000  0.0001        different
+ PRISM                 Protein_MS vs RNA  5    1.0       43     -0.0700     NaN      0.8157 0.8157  0.8157    no difference
+ PRISM               Response+RNA vs RNA  5    1.0       43      0.0165     NaN      0.2369 0.2369  0.3345    no difference
+ PRISM Response+Protein_MS vs Protein_MS  5    1.0       43      0.0244     NaN      0.2137 0.2137  0.3345    no difference
+ PRISM                RPPA vs Protein_MS  5    1.0       43     -0.0815     NaN      0.2884 0.2884  0.3643    no difference
+  GDSC                          Response  5    1.0       37     -0.2359  0.0060         NaN 0.0060  0.0359 does not predict
+  GDSC                               RNA  5    1.0       37     -0.1390  0.5230         NaN 0.5230  0.5705 does not predict
+  GDSC                        Protein_MS  5    1.0       37     -0.0750  0.1697         NaN 0.1697  0.2908 does not predict
+  GDSC                              RPPA  5    1.0       37      0.0051  0.0020         NaN 0.0020  0.0160 does not predict
+  GDSC                      Response+RNA  5    1.0       37     -0.0277  0.0519         NaN 0.0519  0.1246 does not predict
+  GDSC               Response+Protein_MS  5    1.0       37     -0.0142  0.0299         NaN 0.0299  0.0905 does not predict
+  GDSC                   Response vs RNA  5    1.0       37     -0.1538     NaN      0.1149 0.1149  0.2121    no difference
+  GDSC            Response vs Protein_MS  5    1.0       37     -0.3400     NaN      0.0143 0.0143  0.0684    no difference
+  GDSC                 Protein_MS vs RNA  5    1.0       37      0.0706     NaN      0.0774 0.0774  0.1601    no difference
+  GDSC               Response+RNA vs RNA  5    1.0       37      0.0438     NaN      0.0800 0.0800  0.1601    no difference
+  GDSC Response+Protein_MS vs Protein_MS  5    1.0       37     -0.0055     NaN      0.3088 0.3088  0.3706    no difference
+  GDSC                RPPA vs Protein_MS  5    1.0       37      0.0876     NaN      0.2246 0.2246  0.3345    no difference
+
+Done in 69.3 min. Results in ../results/confirmatory

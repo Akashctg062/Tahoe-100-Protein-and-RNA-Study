@@ -1,0 +1,10 @@
+T2-H1a cross-context identity (primary: averaged DEGs, Pearson): n = 25 drugs, 5518 genes
+  mean r same drug = +0.062 vs different drugs = +0.013; one-sided permutation p = 0.0001
+  DECISION: identity preserved across contexts (p < 0.05)
+T2-H1b: shared drugs with DICTrank (most/less/no) or FAERS labels = 25 -> below the pre-specified 30; reported descriptively only
+
+          signature   method  n_drugs  n_genes  mean_same  median_same  mean_different  perm_p  mean_rank_percentile_own  n_own_best
+      averaged_DEGs  pearson       25     5518     0.0623       0.0471          0.0133  0.0001                    0.7217           5
+      averaged_DEGs spearman       25     5518     0.0616       0.0509          0.0150  0.0001                    0.7217           4
+drug_selective_DEGs  pearson       25     4793     0.0436       0.0123          0.0033  0.0001                    0.6583           6
+drug_selective_DEGs spearman       25     4793     0.0402       0.0152          0.0054  0.0002                    0.6600           4

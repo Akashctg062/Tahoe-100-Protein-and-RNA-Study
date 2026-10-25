@@ -1,0 +1,12 @@
+T1-A1 D1: 100 drugs, 65 positive
+Decision (frozen rule applies to C1): Tahoe NOT rescued (all Holm-adjusted p >= 0.025)
+
+       family representation  auroc_chem  auroc_tahoe  auroc_chem_tahoe  tahoe_ci_lo  tahoe_ci_hi  tahoe_perm_p  delta  delta_ci_lo  delta_ci_hi  p_one_sided  p_holm
+enet_logistic          pca50       0.654        0.472             0.464        0.347        0.597         0.672 -0.190       -0.330       -0.054        0.996     1.0
+enet_logistic       programs       0.654        0.504             0.631        0.383        0.623         0.464 -0.023       -0.057        0.010        0.920     1.0
+   grad_boost          pca50       0.598        0.532             0.469        0.409        0.650         0.289 -0.129       -0.233       -0.025        0.994     1.0
+   grad_boost       programs       0.598        0.529             0.520        0.417        0.649         0.334 -0.078       -0.171        0.023        0.941     1.0
+      rbf_svm          pca50       0.690        0.364             0.366        0.256        0.484         0.991 -0.324       -0.481       -0.138        1.000     1.0
+      rbf_svm       programs       0.690        0.407             0.651        0.283        0.537         0.936 -0.039       -0.071       -0.006        0.990     1.0
+          mlp          pca50       0.487        0.564             0.485        0.450        0.676         0.151 -0.003       -0.177        0.177        0.518     1.0
+          mlp       programs       0.487        0.288             0.573        0.194        0.398         0.999  0.085       -0.066        0.246        0.133     1.0

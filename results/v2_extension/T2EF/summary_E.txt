@@ -1,0 +1,22 @@
+T2-E CTRP replication: 46 drugs, median 27 lines
+E1 RPPA calibrated rho > 0: median +0.180, p = 0.0000
+E2 RPPA - RNA > 0: median -0.073, p = 0.9992
+DECISION: GDSC RPPA finding NOT replicated in CTRP
+sensitivity (drugs not in GDSC, n = 27): RPPA median +0.146, RPPA-RNA median -0.072
+
+source              set  n_drugs  median_lines  median_raw  median_null  median_calibrated  p_gt0  fdr_bh
+  CTRP          Protein       46          27.0      0.0408      -0.1538             0.1819 0.0000  0.0001
+  CTRP              RNA       46          27.0      0.0768      -0.1475             0.2248 0.0000  0.0000
+  CTRP             RPPA       46          27.0      0.0173      -0.1647             0.1804 0.0000  0.0001
+  CTRP         Response       46          27.0     -0.3190      -0.3686             0.1016 0.0086  0.0160
+  CTRP Response+Protein       46          27.0      0.0028      -0.1259             0.1117 0.0010  0.0026
+  CTRP     Response+RNA       46          27.0      0.1205      -0.1185             0.2296 0.0000  0.0000
+
+source                  comparison  n_drugs  median_difference  p_two_sided  p_greater  fdr_bh
+  CTRP             Response vs RNA       46            -0.1149       0.0248     0.9879  0.0404
+  CTRP         Response vs Protein       46             0.0108       0.5227     0.7422  0.5663
+  CTRP              Protein vs RNA       46            -0.0527       0.1297     0.9365  0.1874
+  CTRP                 RPPA vs RNA       46            -0.0726       0.0016     0.9992  0.0035
+  CTRP         Response+RNA vs RNA       46            -0.0317       0.2679     0.8684  0.3166
+  CTRP Response+Protein vs Protein       46            -0.0292       0.2071     0.8984  0.2693
+  CTRP             RPPA vs Protein       46            -0.0031       0.7536     0.6273  0.7536

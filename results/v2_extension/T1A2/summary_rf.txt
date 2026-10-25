@@ -1,0 +1,33 @@
+T1-A2 decisions (Amendment 3)
+(a) Response rescued: NO (no family met the rule in both screens)
+(b) RPPA - RNA median > 0 in GDSC for 0/1 families () -> NOT model-robust (needs >= 3 of 4)
+
+model source                 set  n_drugs  median_calibrated  p_gt0  fdr_bh
+   rf   GDSC          Protein_MS       37             0.0489 0.0570  0.1234
+   rf   GDSC                 RNA       37             0.1166 0.0005  0.0065
+   rf   GDSC                RPPA       37             0.1584 0.0442  0.1126
+   rf   GDSC            Response       37             0.0723 0.0189  0.0809
+   rf   GDSC Response+Protein_MS       37             0.1650 0.0014  0.0123
+   rf   GDSC        Response+RNA       37             0.1653 0.0000  0.0001
+   rf  PRISM          Protein_MS       43             0.0853 0.0735  0.1441
+   rf  PRISM                 RNA       43             0.1149 0.0218  0.0809
+   rf  PRISM                RPPA       43            -0.0138 0.6152  0.7270
+   rf  PRISM            Response       43             0.0392 0.1069  0.1736
+   rf  PRISM Response+Protein_MS       43             0.1097 0.0450  0.1126
+   rf  PRISM        Response+RNA       43             0.0801 0.0405  0.1126
+
+model source                        comparison  n_drugs  median_difference      p  fdr_bh
+   rf  PRISM                   Response vs RNA       43            -0.0876 0.0831  0.1441
+   rf  PRISM            Response vs Protein_MS       43            -0.0178 0.7154  0.8087
+   rf  PRISM                 Protein_MS vs RNA       43            -0.0523 0.2006  0.2898
+   rf  PRISM                       RPPA vs RNA       43            -0.1388 0.0476  0.1126
+   rf  PRISM               Response+RNA vs RNA       43            -0.0429 0.1922  0.2898
+   rf  PRISM Response+Protein_MS vs Protein_MS       43            -0.0206 0.8437  0.8437
+   rf  PRISM                RPPA vs Protein_MS       43            -0.0577 0.2467  0.3375
+   rf   GDSC                   Response vs RNA       37            -0.1104 0.3460  0.4284
+   rf   GDSC            Response vs Protein_MS       37             0.0479 0.2878  0.3741
+   rf   GDSC                 Protein_MS vs RNA       37            -0.0833 0.0087  0.0568
+   rf   GDSC                       RPPA vs RNA       37            -0.1013 0.0827  0.1441
+   rf   GDSC               Response+RNA vs RNA       37            -0.0150 0.8115  0.8437
+   rf   GDSC Response+Protein_MS vs Protein_MS       37             0.0678 0.0159  0.0809
+   rf   GDSC                RPPA vs Protein_MS       37            -0.0384 0.7999  0.8437

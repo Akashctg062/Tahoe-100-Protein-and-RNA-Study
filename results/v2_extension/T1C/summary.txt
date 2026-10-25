@@ -1,0 +1,7 @@
+T1-C RPPA target concordance: 46 drug x screen units
+median concordance (mean percentile of matched antibodies, 0.5 = chance) = 0.511
+permutation null median 0.496 (95% range 0.465-0.524); one-sided p = 0.1475
+DECISION: concordance NOT supported (p >= 0.05)
+  PRISM: n = 25, median 0.504, null median 0.496, p = 0.3365
+  GDSC: n = 21, median 0.528, null median 0.497, p = 0.0950
+secondary: matched phospho-antibodies, median rho = +0.013 (n = 272), fraction negative = 0.48

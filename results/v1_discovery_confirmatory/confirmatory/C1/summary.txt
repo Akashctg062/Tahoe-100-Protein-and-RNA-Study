@@ -1,0 +1,12 @@
+FDA-approved Tahoe compounds: 246 | excluded (used in D1): 98 | C1 candidates: 148
+openFDA API key: provided
+openFDA self-check: all reports = 20,692,690 | sunitinib = 39,093 | sunitinib + cardiac = 1,123
+C1 drugs with >= 100 FAERS reports: 130 | cardiac signal: 67 | no signal: 63
+  dropped 2 drug(s) with unreadable SMILES: sacubitril, verteporfin
+Analysed: 128 drugs (66 signal) | Tahoe genes kept: 26602
+  AUROC chemistry        = 0.459  (95% CI 0.360-0.558)
+  AUROC tahoe            = 0.444  (95% CI 0.346-0.543)
+  AUROC chemistry+tahoe  = 0.456  (95% CI 0.357-0.554)
+
+PRIMARY: AUROC(chemistry+Tahoe) - AUROC(chemistry) = -0.003  (95% CI -0.012 to +0.006)
+DECISION: Tahoe does NOT add information (lower CI <= 0)

@@ -1,0 +1,59 @@
+T1-A2 decisions (Amendment 3)
+(a) Response rescued: NO (no family met the rule in both screens)
+(b) RPPA - RNA median > 0 in GDSC for 0/2 families () -> NOT model-robust (needs >= 3 of 4)
+
+model source                 set  n_drugs  median_calibrated  p_gt0  fdr_bh
+ridge   GDSC          Protein_MS       37             0.0558 0.0683  0.1775
+ridge   GDSC                 RNA       37             0.0679 0.0017  0.0217
+ridge   GDSC                RPPA       37             0.0857 0.0196  0.0974
+ridge   GDSC            Response       37             0.0791 0.0374  0.1081
+ridge   GDSC Response+Protein_MS       37             0.0850 0.0254  0.0974
+ridge   GDSC        Response+RNA       37             0.1419 0.0003  0.0089
+ridge  PRISM          Protein_MS       43             0.1267 0.0275  0.0974
+ridge  PRISM                 RNA       43             0.0123 0.2345  0.3810
+ridge  PRISM                RPPA       43            -0.0279 0.8639  0.8639
+ridge  PRISM            Response       43             0.0324 0.1025  0.2220
+ridge  PRISM Response+Protein_MS       43             0.0616 0.0300  0.0974
+ridge  PRISM        Response+RNA       43             0.0394 0.1415  0.2829
+  krr   GDSC          Protein_MS       37             0.0114 0.0503  0.1633
+  krr   GDSC                 RNA       37             0.1021 0.0107  0.0731
+  krr   GDSC                RPPA       37             0.1754 0.0219  0.1094
+  krr   GDSC            Response       37             0.0104 0.1094  0.2586
+  krr   GDSC Response+Protein_MS       37             0.0768 0.0061  0.0731
+  krr   GDSC        Response+RNA       37             0.1325 0.0008  0.0197
+  krr  PRISM          Protein_MS       43             0.1150 0.0252  0.1094
+  krr  PRISM                 RNA       43             0.0613 0.0769  0.2000
+  krr  PRISM                RPPA       43             0.0352 0.4032  0.6167
+  krr  PRISM            Response       43             0.0660 0.0498  0.1633
+  krr  PRISM Response+Protein_MS       43             0.0756 0.0112  0.0731
+  krr  PRISM        Response+RNA       43             0.0593 0.0718  0.2000
+
+model source                        comparison  n_drugs  median_difference      p  fdr_bh
+ridge  PRISM                   Response vs RNA       43             0.0057 0.5618  0.6955
+ridge  PRISM            Response vs Protein_MS       43            -0.0211 0.7333  0.8639
+ridge  PRISM                 Protein_MS vs RNA       43             0.0440 0.5220  0.6787
+ridge  PRISM                       RPPA vs RNA       43            -0.0581 0.0854  0.2018
+ridge  PRISM               Response+RNA vs RNA       43             0.0060 0.5066  0.6787
+ridge  PRISM Response+Protein_MS vs Protein_MS       43            -0.0226 0.8157  0.8639
+ridge  PRISM                RPPA vs Protein_MS       43            -0.0657 0.0190  0.0974
+ridge   GDSC                   Response vs RNA       37            -0.1150 0.1815  0.3371
+ridge   GDSC            Response vs Protein_MS       37            -0.0178 0.8347  0.8639
+ridge   GDSC                 Protein_MS vs RNA       37            -0.0418 0.0275  0.0974
+ridge   GDSC                       RPPA vs RNA       37            -0.0263 0.2246  0.3810
+ridge   GDSC               Response+RNA vs RNA       37            -0.0135 0.8580  0.8639
+ridge   GDSC Response+Protein_MS vs Protein_MS       37             0.0278 0.5016  0.6787
+ridge   GDSC                RPPA vs Protein_MS       37             0.0008 0.3777  0.5777
+  krr  PRISM                   Response vs RNA       43            -0.0419 0.5863  0.7259
+  krr  PRISM            Response vs Protein_MS       43            -0.0315 0.7154  0.8087
+  krr  PRISM                 Protein_MS vs RNA       43            -0.0267 0.7605  0.8239
+  krr  PRISM                       RPPA vs RNA       43            -0.0227 0.1610  0.3436
+  krr  PRISM               Response+RNA vs RNA       43            -0.0018 0.8064  0.8387
+  krr  PRISM Response+Protein_MS vs Protein_MS       43             0.0163 0.2274  0.4224
+  krr  PRISM                RPPA vs Protein_MS       43             0.0255 0.3109  0.5052
+  krr   GDSC                   Response vs RNA       37            -0.0559 0.4642  0.6353
+  krr   GDSC            Response vs Protein_MS       37             0.0289 0.9287  0.9287
+  krr   GDSC                 Protein_MS vs RNA       37            -0.0316 0.2947  0.5052
+  krr   GDSC                       RPPA vs RNA       37            -0.0073 0.7093  0.8087
+  krr   GDSC               Response+RNA vs RNA       37             0.0060 0.4372  0.6315
+  krr   GDSC Response+Protein_MS vs Protein_MS       37             0.0352 0.1718  0.3436
+  krr   GDSC                RPPA vs Protein_MS       37             0.0794 0.5016  0.6521

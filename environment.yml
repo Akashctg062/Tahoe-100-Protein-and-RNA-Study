@@ -1,0 +1,25 @@
+# Conda environment for the Onco-Cardio Therapeutic Window study
+# Create:   conda env create -f environment.yml
+# Activate: conda activate oncocardio
+name: oncocardio
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.11
+  - pandas>=2.2
+  - pyarrow>=15
+  - numpy
+  - scipy
+  - scikit-learn>=1.5
+  - matplotlib
+  - seaborn
+  - requests
+  - openpyxl
+  - scanpy
+  - anndata
+  - jupyterlab
+  - pip
+  - pip:
+      - torch            # install CUDA build separately if you have a GPU
+      - rdkit            # drug structure fingerprints
+      - fair-esm         # ESM-2 protein embeddings for drug targets
+      - shap

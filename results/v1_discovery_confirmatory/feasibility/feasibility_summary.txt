@@ -1,0 +1,20 @@
+Tahoe cell lines: 102 (lung: 27)
+Reading cell counts from 1026 filtered Tahoe files ...
+Tahoe survival measure: 29,384 drug-dose-line rows, 196 drugs, 50 lines
+  strongly killed (survival < -1, i.e. <50% of typical) at top dose: 6.2% of drug-line pairs
+
+Q1. CCLE proteomics: 55/102 Tahoe lines (lung: 16/27)
+    lung lines WITH proteomics: A549, Calu-1, LU65, NCI-H1155, NCI-H1299, NCI-H1573, NCI-H1792, NCI-H2030, NCI-H2122, NCI-H23, NCI-H358, NCI-H460, NCI-H661, SHP-77, SW 1271, SW 1573
+    lung lines WITHOUT: A-427, EKVX, HOP-92, HOP62, LU99, NCI-H1373, NCI-H1385, NCI-H2087, NCI-H2347, NCI-H596, SW 900
+
+Q2. PRISM: 1,639 Tahoe drug-line pairs with labels | 45 drugs | 43 lines | lung: 543 pairs in 14 lines
+Q3. Agreement Tahoe survival vs prism_auc: pooled Spearman rho = 0.03
+    within cell line (across drugs): median rho = 0.04 over 43 lines
+    within drug (across lines):      median rho = 0.03 over 45 drugs
+    (positive rho = agreement: both low when the line is sensitive)
+
+Q2. GDSC: 1,650 Tahoe drug-line pairs with labels | 39 drugs | 44 lines | lung: 513 pairs in 14 lines
+Q3. Agreement Tahoe survival vs gdsc_auc: pooled Spearman rho = 0.09
+    within cell line (across drugs): median rho = 0.13 over 44 lines
+    within drug (across lines):      median rho = 0.02 over 38 drugs
+    (positive rho = agreement: both low when the line is sensitive)
