@@ -28,8 +28,8 @@ Manuscript in preparation — please cite the article once it is published (cita
 | Date | Document | Status |
 |---|---|---|
 | 15 Oct 2026 | `preregistration/03_Prespecified_Analysis_Plan_and_Manuscript_Outline.md` | Frozen plan (before confirmatory analyses C1–C3) |
-| 15 Oct 2026 | `preregistration/..._v2_with_Amendment1.md` | Amendment 1 (post hoc): null-calibrated C3 |
-| 16 Oct 2026 | `preregistration/..._v3_with_Amendments1-2.md` | Amendment 2 (post hoc): C1 without cardiovascular-indication drugs |
+| 15 Oct 2026 | `00_Amendment1_preregistration_2026-10-15.md` (also in `preregistration/..._v2_with_Amendment1.md`) | Amendment 1 (post hoc): null-calibrated C3 |
+| 16 Oct 2026 | `00_Amendment2_preregistration_2026-10-16.md` (also in `preregistration/..._v3_with_Amendments1-2.md`) | Amendment 2 (post hoc): C1 implementation note; C1 without cardiovascular-indication drugs |
 | 18 Oct 2026 | `00_Amendment3_preregistration_2026-10-18.md` | Amendment 3: extension analyses T1-A–T1-D and T2-E–T2-H, frozen **before** they were run and before the new data were downloaded; includes a dated change log |
 
 Analysis labels: **D** = discovery, **C** = confirmatory (frozen), **T** = pre-registered extension (Amendment 3).
@@ -40,7 +40,8 @@ Exploratory analyses are labelled as such.
 ## Repository structure
 
 ```
-preregistration/              frozen plan and Amendments 1-2 (Amendment 3 is in the repository root)
+preregistration/              frozen plan and the plan versions with Amendments 1-2
+00_Amendment1/2/3_*.md        each amendment as a separate file (repository root)
 scripts/
   01_core_analysis/           steps 01-11: data download, name harmonisation, D1-D4, C1-C3, Amendments 1-2, lung subset
   02_exploratory/             discovery helpers (D1 models and subtypes, D2 positive controls)
