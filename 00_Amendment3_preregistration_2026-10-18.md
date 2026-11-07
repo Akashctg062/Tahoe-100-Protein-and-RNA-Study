@@ -6,7 +6,7 @@ info: Asaduzzaman (GIBMTE, Taipei Medical University)--Frozen, before any Tier 1
 
 # 0. Purpose and status
 
-This amendment fixes the hypotheses, data, models, metrics and decision rules of the extension analyses **before** they are run. It does not change the frozen plan (15 Oct 2026) or Amendments 1–2; the conference manuscript (v1, 16 Oct 2026) is left unchanged.
+This amendment fixes the hypotheses, data, models, metrics and decision rules of the extension analyses **before** they are run. It does not change the frozen plan or Amendments 1–2.
 
 * **Tier 1** re-uses data already analysed (Tahoe-100M, DICTrank, FAERS, PRISM, GDSC, CCLE). Its results are **secondary / robustness** evidence, except T1-C, which tests a new hypothesis (antibody–target concordance) at a level of the data not yet examined.
 * **Tier 2** uses **independent data not yet downloaded** (CTRP v2, ProCan-DepMapSanger proteomics, LINCS L1000, iPSC-cardiomyocyte signatures, ChEMBL hERG). Its tests are **confirmatory replications**.
