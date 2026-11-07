@@ -1,8 +1,8 @@
 ---
 title: "Amendment 3 — Pre-specification of extension analyses (Tier 1 and Tier 2)"
 study: "What does a 100-million-cell drug-perturbation atlas predict? (extended journal version, v2)"
-author: "Asaduzzaman (GIBMTE, Taipei Medical University) — prepared with Claude"
-date: "Frozen 18 October 2026, before any Tier 1 analysis was run and before any Tier 2 dataset was downloaded"
+author: "Asaduzzaman (GIBMTE, Taipei Medical University)"
+"Frozen, before any Tier 1 analysis was run and before any Tier 2 dataset was downloaded"
 ---
 
 # 0. Purpose and status
