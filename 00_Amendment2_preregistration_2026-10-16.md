@@ -1,13 +1,12 @@
 ---
 title: "Amendment 2 — C1 implementation note and sensitivity analysis excluding cardiovascular-indication drugs (post hoc)"
 study: "What does a 100-million-cell drug-perturbation atlas predict? Pre-specified evaluation of Tahoe-100M"
-date: "Added 16 October 2026 (post hoc)"
 ---
 
 This file reproduces, unchanged, Section 8 of the analysis plan as amended
-(`preregistration/03_Prespecified_Analysis_Plan_and_Manuscript_Outline_v3_with_Amendments1-2.md`). The frozen plan of 15 October 2026 is `preregistration/03_Prespecified_Analysis_Plan_and_Manuscript_Outline.md`.
+(`preregistration/03_Prespecified_Analysis_Plan_and_Manuscript_Outline_v3_with_Amendments1-2.md`). The frozen plan is `preregistration/03_Prespecified_Analysis_Plan_and_Manuscript_Outline.md`.
 
-# 8. C1 implementation note and Amendment 2 (16 Oct 2026)
+# 8. C1 implementation note and Amendment 2
 
 **Implementation correction made BEFORE any C1 result was computed.** The first openFDA search used only `patient.drug.openfda.generic_name`, which returned 0 reports for 37 of 148 drugs, including FDA-approved abemaciclib, darolutamide and belzutifan (missing harmonisation for recent drugs). The search was changed to `generic_name OR activesubstance.activesubstancename`; zero-report drugs fell to 3. Only this v2 search was used for C1.
 
