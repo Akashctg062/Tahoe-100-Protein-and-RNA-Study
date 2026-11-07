@@ -1,14 +1,13 @@
 ---
 title: "Amendment 1 — Null-calibrated C3 (post hoc)"
 study: "What does a 100-million-cell drug-perturbation atlas predict? Pre-specified evaluation of Tahoe-100M"
-date: "Added 15 October 2026, after the confirmatory C2/C3 results were seen (post hoc)"
 ---
 
 This file reproduces, unchanged, Section 7 of the analysis plan as amended
-(`preregistration/03_Prespecified_Analysis_Plan_and_Manuscript_Outline_v3_with_Amendments1-2.md`). The frozen plan of 15 October 2026 is `preregistration/03_Prespecified_Analysis_Plan_and_Manuscript_Outline.md`;
+(`preregistration/03_Prespecified_Analysis_Plan_and_Manuscript_Outline_v3_with_Amendments1-2.md`). The frozen plan is `preregistration/03_Prespecified_Analysis_Plan_and_Manuscript_Outline.md`;
 the plan with this amendment alone is `preregistration/03_Prespecified_Analysis_Plan_and_Manuscript_Outline_v2_with_Amendment1.md`.
 
-# 7. Amendment 1 (added 15 Oct 2026, AFTER the confirmatory C2/C3 results were seen)
+# 7. Amendment 1 (AFTER the confirmatory C2/C3 results were seen)
 
 **What happened.** The frozen C3 used leave-one-line-out (LOO) ridge regression with a training-mean intercept. Under the null hypothesis this procedure is negatively biased (leaving one line out shifts the training mean in the opposite direction), and the size of the bias differs between feature sets (median null ρ: Response −0.38; RNA −0.15 to −0.16; MS protein −0.15 to −0.16; RPPA −0.16 to −0.17).
 
